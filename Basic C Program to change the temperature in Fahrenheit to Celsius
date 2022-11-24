@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() 	{
+float fahren,celsius;
+printf("Enter the Temperatur of your city in Fahrenheit You American Idjit  :  ");
+scanf("%f",&fahren);
+celsius = (fahren -32) *5/9;
+printf("For the rest of the world the Temperature is  :  %f",celsius);
+return 0;
+		}
