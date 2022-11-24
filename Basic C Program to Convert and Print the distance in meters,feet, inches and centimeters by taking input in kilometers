@@ -1,0 +1,19 @@
+# include <stdio.h>
+
+int main() 	{
+float kms,mts,inches,feet,centimeters;
+
+printf("\n Enter the Distance between two cities A and B in Kilometers  :  ");
+scanf("%f",&kms);
+mts = kms* 1000; 		/* As 1km =1000 meters*/
+feet = kms * 3280.84;		/* As 1 km = 3280.84 feet */
+inches = kms * 39370.1;		/* As 1km = 39370.1 inches */
+centimeters = kms * 100000;	/* As 1 km = 100000 centimeters */
+
+printf("\nThe Distance between A and B in Meters is : %f",mts);
+printf("\nThe Distance between A and B in Feet is : %f",feet);
+printf("\nThe Distance between A and B in Inches is : %f",inches);
+printf("\nThe Distance between A and B in Centimeters is : %f",centimeters);
+
+return 0;
+		}
