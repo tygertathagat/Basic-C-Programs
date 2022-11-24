@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main(){
+
+
+int basic,da,ra,gross;
+
+printf("\nEnter the Basic Salary of Employee");
+scanf("%d",&basic);
+da=basic*40/100;
+ra=basic*20/100;
+gross=basic+da+ra;
+printf("The Gross Salary of the Employee is :  %d",gross);
+return 0;
+}
